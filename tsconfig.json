@@ -1,0 +1,15 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+      // ...
+
+      /* Base URL is a MUST. */
+      "baseUrl": "src",
+      /* Your aliases will live here */
+      "paths": {
+        "layouts/*": [
+          "layouts/*"
+        ],
+      }
+    }
+}
