@@ -11,20 +11,13 @@ const { frontmatter } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{ frontmatter.title }</title>
 	</head>
-	<body class="m-5 " style="background-color:#282a36;">
-		<h1><span class="bg-gradient-accent text-gradient">{ frontmatter.title }</span></h1>
+	<body class="p-5 bg-gradient-to-t from-dracBackground to-dracCurrentLine">
+		<h1><span class="bg-clip-text text-transparent bg-gradient-accent bg-400% bg-left">{ frontmatter.title }</span></h1>
 		<slot />
 	</body>
 </html>
 
-<style>
-	.text-gradient {
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-    background-position: 0%;
-	}
-</style>
+
 <style is:global>
 	:root {
 		--accent: 124, 58, 237;

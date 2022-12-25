@@ -1,10 +1,11 @@
 ---
+import "../styles/global.css"
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-	<main class="bg-dracRed">
+	<main class=" [ bg-gradient-to-t from-dracOrange to-dracCyan ]">
 		<h1>Welcome to <span class="bg-clip-text text-transparent bg-gradient-accent bg-400% bg-left">Astro</span></h1>
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.<br />
@@ -41,16 +42,6 @@ import Card from '../components/Card.astro';
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
 	.instructions {
 		line-height: 1.6;
 		margin: 1rem 0;
