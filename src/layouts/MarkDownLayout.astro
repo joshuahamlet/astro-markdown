@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css"
 const { frontmatter } = Astro.props;
 ---
 
@@ -11,94 +12,8 @@ const { frontmatter } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{ frontmatter.title }</title>
 	</head>
-	<body class="p-5 bg-gradient-to-t from-dracBackground to-dracCurrentLine">
+	<body class="p-5 bg-gradient-to-b from-dracBackground to-black">
 		<h1><span class="bg-clip-text text-transparent bg-gradient-accent bg-400% bg-left">{ frontmatter.title }</span></h1>
 		<slot />
 	</body>
 </html>
-
-
-<style is:global>
-	:root {
-		--accent: 124, 58, 237;
-		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
-    --background: #282a36;
-    --current-line: #44475a;
-    --foreground: #f8f8f2;
-    --comment: #6272a4;
-    --cyan: #8be9fd;
-    --green: #50fa7b;
-    --orange: #ffb86c;
-    --pink: #ff79c6;
-    --purple: #bd93f9;
-    --red: #ff5555;
-    --yellow: #f1fa8c;
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background-color: var(--background);
-    color: var(--foreground)
-	}
-  body {
-    background-color: var(--background)
-  }
-	code {
-		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-			Bitstream Vera Sans Mono, Courier New, monospace;
-    color: var(--cyan);
-	}
-  a {
-    color: var(--yellow);
-  }
-  table {
-    border: 2px solid var(--comment);
-  }
-  td, th {
-    padding: 8px;
-  }
-  tr {
-    background-color: var(--background);
-    border-collapse: collapse;
-  }
-  tr:nth-child(even){
-    background-color: var(--current-line);
-  }
-  tr:hover {
-    background-color: var(--purple);
-    color: var(--background)
-  }
-  th, thead {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-image: linear-gradient(45deg, var(--cyan), var(--green));
-    color: var(--background);
-  }
-  pre {
-    padding: 12px;
-    border-radius: 6px;
-    border: solid 2px var(--comment);
-  }
-  strong {
-    color: var(--pink);
-  }
-  em {
-    color: var(--orange);
-  }
-  h1 {
-    color: var(--green);
-  }
-  h2 {
-    color: var(--purple);
-  }
-  h3 {
-    color: var(--red);
-  }
-  blockquote {
-   background: var(--current-line);
-   border-left: 10px solid var(--comment);
-   border-radius: 6px;
-   margin: 1.5em 10px;
-   padding: 1em 10px 0.1em 10px;
-  }
-</style>
