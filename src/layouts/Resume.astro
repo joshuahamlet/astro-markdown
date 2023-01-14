@@ -1,5 +1,5 @@
 ---
-import "../styles/global.css";
+import "../styles/resume.css";
 const { frontmatter } = Astro.props;
 ---
 
@@ -15,12 +15,20 @@ const { frontmatter } = Astro.props;
   <body
     class="h-screen p-6 overflow-scroll [ bg-scroll bg-contain bg-gradient-to-b from-drac-background-800 to-drac-background-900 ]"
   >
-    <h1>
-      <span
-        class="bg-clip-text text-transparent bg-gradient-to-r from-drac-purple-400 to-drac-pink-400  bg-left"
-        >{frontmatter.title}</span
-      >
-    </h1>
-    <slot/>
+      <header>
+        <div>
+          <h1>Joshua Hamlet</h1>
+          <h2>Web Dev</h2> 
+        </div>
+        <div>
+          <ul>
+            <li>0123 4567 890</li>
+            <li>simon@yourwebsite.com</li>
+            <li>www.yourwebsite.com</li>
+            <li>New York</li>
+          </ul>
+        </div>
+      </header>
+    <slot />
   </body>
 </html>

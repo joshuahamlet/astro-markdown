@@ -1,0 +1,19 @@
+header {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+
+h1 {
+  color: #517d41;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #517d41;
+  font-size: 2rem;
+}
+
+li {
+  list-style: circle;
+}

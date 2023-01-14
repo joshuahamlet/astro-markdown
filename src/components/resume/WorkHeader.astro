@@ -1,0 +1,16 @@
+---
+export interface Props {
+  company: string;
+  title: string;
+  location: string;
+  duration: string;
+}
+
+const { company, title, location, duration  } = Astro.props;
+---
+
+<div class="flex flex-wrap justify-between">
+  <div>{company}{title}</div>
+  <div>{location}{duration}</div>
+</div>
+

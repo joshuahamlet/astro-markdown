@@ -1,3 +1,47 @@
+header {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+
+header h1 {
+  padding-right: 0.75rem;
+}
+
+h2 {
+  color: #517d41;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+header li {
+  list-style: none;
+  font-weight: 200; 
+  font-size: 1rem;
+}
+
+li {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+ul {
+  margin-bottom: 2rem;
+}
+
+.workheader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wherewhen {
+  display: flex;
+  flex-direction: column;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
 :root {
   --accent: 124, 58, 237;
   --accent-gradient: linear-gradient(
