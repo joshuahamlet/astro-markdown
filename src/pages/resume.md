@@ -1,6 +1,7 @@
 ---
 layout: "../layouts/Resume.astro"
 ---
+***
 
 ## Work Experience
 
@@ -77,8 +78,8 @@ AP Specialist
 - Composed accounting and ad-hoc reports to the finance department. (A/P Aging, PTO Summaries, Customized Cash Reports)
 - On-boarded hourly employees into Insperity timecard application and. Point of contact for punch adjustments.
 
-<div class="position">
 <div class="workheader">
+<div class="position">
 
 ### Gilardi & Co. LLC
 Claims Analyst
@@ -97,7 +98,7 @@ Claims Analyst
 - Prepared weekly reports for Case Teams.
 - Fielded escalated inquiries and correspondence from claimants.
 
-SKILLS                                                                                                                         
+## SKILLS
 
 - Netsuite
 - Sage Intacct
@@ -110,8 +111,18 @@ SKILLS
 - Google Sheets ***Import Range, Query***
 - Process documentation ***Lucid chart***
 
-EDUCATION 
-UNIVERSITY OF CALIFORNIA, SANTA CRUZ
+## EDUCATION 
+
+<div class="workheader">
+<div class="position">
+
+### University of California, Santa Cruz
 BA in Business Management Economics - Emphasis in Accounting 
-Santa Cruz, CA
-Sep 2007 – Jun 2011
+
+</div>
+<div class="wherewhen">
+
+<p>Santa Cruz, CA</p><p> Sep 2007 – Jun 2011</p>
+
+</div>
+</div>
