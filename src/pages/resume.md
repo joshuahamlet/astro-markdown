@@ -3,6 +3,9 @@ layout: "../layouts/Resume.astro"
 ---
 ***
 
+<div class="resume-body">
+<div class="resume-work">
+
 ## Work Experience
 
 <div class="workheader">
@@ -98,6 +101,10 @@ Claims Analyst
 - Prepared weekly reports for Case Teams.
 - Fielded escalated inquiries and correspondence from claimants.
 
+</div>
+
+<div class="resume-other">
+
 ## SKILLS
 
 - Netsuite
@@ -125,4 +132,8 @@ BA in Business Management Economics - Emphasis in Accounting
 <p>Santa Cruz, CA</p><p> Sep 2007 – Jun 2011</p>
 
 </div>
+</div>
+
+</div>
+
 </div>

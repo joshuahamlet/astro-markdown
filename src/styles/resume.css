@@ -7,11 +7,12 @@ header h1 {
   padding-right: 0.75rem;
   font-size: 2.5rem;
   line-height: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 header ul {
   margin-bottom: 1rem;
-  padding-left: 0.5rem;
+  padding-left: 0.25rem;
   border-left: thin solid rgba(229, 231, 235, 0.4);
 }
 
@@ -44,21 +45,30 @@ header li {
   list-style: none;
   font-weight: 200;
   font-size: 1rem;
+  margin: 0 0 0 0.25rem;
 }
 
 li {
   list-style: circle;
-  list-style-position: inside;
+  list-style-position: outside;
+  margin-left: 1.15rem;
+  margin-bottom: 0.5rem;
+  max-width: 45em;
 }
 
 ul {
   margin-bottom: 2rem;
 }
 
+.paper {
+  max-width: 80rem;
+}
+
 .workheader {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 45em;
 }
 
 .wherewhen {
@@ -67,6 +77,37 @@ ul {
   font-weight: 200;
   margin-bottom: 1rem;
 }
+
+.resume-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.resume-work {
+  background-color: none;
+}
+
+.resume-other {
+  border-left: thin solid rgba(229, 231, 235, 0.4);
+  padding-left: 1.25rem;
+  margin-left: 1rem;
+  max-width: 25em;
+}
+
+@media (max-width: 80rem) {
+  .paper {
+    max-width: 42rem;
+  }
+
+  .resume-other {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+    max-width: 45em;
+  }
+}
+
 
 :root {
   --accent: 124, 58, 237;
