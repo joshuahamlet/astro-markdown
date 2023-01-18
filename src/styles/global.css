@@ -1,3 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* red-hat-mono-regular - latin */
+@font-face {
+  font-family: 'Red Hat Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/red-hat-mono-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/red-hat-mono-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@layer base {
+  html {
+    font-family: Red Hat Mono, system-ui, mono;
+  }
+}
+
 :root {
   --accent: 124, 58, 237;
   --accent-gradient: linear-gradient(
@@ -129,7 +149,6 @@
   --drac-yellow-900: #2F3302;
 }
 html {
-  font-family: system-ui, sans-serif;
   color: var(--drac-foreground-200);
 }
 main {
@@ -230,3 +249,4 @@ blockquote {
   background: linear-gradient(to bottom, var(--drac-purple-400), var(--drac-purple-600));
   border-radius: 14px;
 }
+

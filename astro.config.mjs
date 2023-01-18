@@ -14,5 +14,7 @@ export default defineConfig({
     },
     syntaxHighlight: 'shiki'
   },
-  integrations: [tailwind()]
+  integrations: [tailwind({
+    config: { applyBaseStyles: false }
+  })]
 });

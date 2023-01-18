@@ -2,6 +2,17 @@
 module.exports = {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
+    fontWeight: {
+      'thin': '300',
+      'extralight': '350',
+      'light': '400',
+      'normal': '450',
+      'medium': '500',
+      'semibold': '550',
+      'bold': '600',
+      'extrabold': '650',
+      'black': '700',
+    },
     extend: {
       colors: {
         'drac-background-50': '#C0C2D0',
@@ -54,26 +65,30 @@ module.exports = {
         'drac-cyan-700': '#0388A5',
         'drac-cyan-800': '#025B6E',
         'drac-cyan-900': '#012D36',
-        'drac-green-50': '#DBFEE4',
-        'drac-green-100': '#C7FDD5',
-        'drac-green-200': '#9FFCB7',
-        'drac-green-300': '#78FB99',
-        'drac-green-400': '#50fa7b',
-        'drac-green-500': '#19F852',
-        'drac-green-600': '#06D43A',
-        'drac-green-700': '#049D2B',
-        'drac-green-800': '#03671C',
-        'drac-green-900': '#01300D',
-        'drac-orange-50': '#FFFDFB',
-        'drac-orange-100': '#FFF3E6',
-        'drac-orange-200': '#FFDFBE',
-        'drac-orange-300': '#FFCC95',
-        'drac-orange-400': '#ffb86c',
-        'drac-orange-500': '#FF9D34',
-        'drac-orange-600': '#FB8200',
-        'drac-orange-700': '#C36500',
-        'drac-orange-800': '#8B4800',
-        'drac-orange-900': '#522B00',
+        'drac-green': {
+          '50': '#DBFEE4',
+          '100': '#C7FDD5',
+          '200': '#9FFCB7',
+          '300': '#78FB99',
+          '400': '#50fa7b',
+          '500': '#19F852',
+          '600': '#06D43A',
+          '700': '#049D2B',
+          '800': '#03671C',
+          '900': '#01300D'
+        },
+        'drac-orange': { 
+          '50': '#FFFDFB',
+          '100': '#FFF3E6',
+          '200': '#FFDFBE',
+          '300': '#FFCC95',
+          '400': '#ffb86c',
+          '500': '#FF9D34',
+          '600': '#FB8200',
+          '700': '#C36500',
+          '800': '#8B4800',
+          '900': '#522B00'
+        },
         'drac-pink-50': '#FFFFFF',
         'drac-pink-100': '#FFF3FA',
         'drac-pink-200': '#FFCBE9',
@@ -121,7 +136,7 @@ module.exports = {
       },
       backgroundSize: {
         "400%": "400%"
-      }
+      },
     },
   },
   plugins: [],

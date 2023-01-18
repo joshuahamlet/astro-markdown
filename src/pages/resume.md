@@ -20,7 +20,7 @@ AR Manager
 </div>
 </div>
 
-- Managed all invoicing activities. Monthly volume average 200+ invoices at $4M Revenue and $3.6M Passthrough. THis included various streams and pricing structures.
+- Managed ***all*** invoicing activities. Monthly volume average 200+ invoices at $4M Revenue and $3.6M Passthrough. THis included various streams and pricing structures.
 - Point of contact for revenue items during annual audit. 
 - Oversee 2 direct reports 
 - Generate monthly and ad hoc reporting. Moved towards a streamlined reporting structure by utilizing Data visualization and reporting tools. Revenue, Aging.
