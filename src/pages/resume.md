@@ -3,8 +3,15 @@ layout: "../layouts/Resume.astro"
 ---
 ***
 
+<img style="border-radius:14rem;width:10rem;float:left;shape-outside:circle();margin-right:1rem" src="profile1.gif"/>
+<p style="margin-bottom:2rem">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere enim nisl, eu fermentum arcu egestas eget. Aliquam maximus ex non vulputate venenatis. Sed vel suscipit enim, quis facilisis enim. Suspendisse ultrices tristique ante non auctor. Etiam hendrerit ex eget dui dapibus vehicula. In vulputate tortor purus, a vestibulum enim dictum eget. Praesent eget tempus justo, id ultricies orci. Curabitur at cursus turpis, quis iaculis ligula. Donec mi justo, sollicitudin vitae facilisis placerat, venenatis at leo. Nunc finibus erat a ligula laoreet, fringilla tempor metus efficitur. Curabitur fringilla sapien ac nisl dictum venenatis. Aliquam sit amet lorem pulvinar leo tempus efficitur hendrerit at est. Pellentesque ultricies faucibus lorem, nec rutrum ligula consequat in. Nunc molestie nulla vel justo feugiat, vel sodales ante elementum. Maecenas non metus tempus, porttitor lacus eu, efficitur eros.
+</p>
+<div style="clear:left;"/>
+
 <div class="resume-body">
 <div class="resume-work">
+
 
 ## Work Experience
 
