@@ -125,6 +125,13 @@ ul {
   }
 }
 
+.clearfix:after { 
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
 
 :root {
   --accent: 124, 58, 237;
