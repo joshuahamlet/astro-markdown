@@ -117,20 +117,19 @@ Claims Analyst
 ## SKILLS
 
 <details>
-  <summary>Click me</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+  <summary>Accounting</summary>
 
-  ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
+- Netsuite
+- Sage Intacct
+- Google Data Studio
+- Abila MIP
+- Concur (Expense/Invoice/Reporting)
+- Bill.com
+- Insperity - Timestar
+- MS Office: Outlook, PowerPoint, Word, and Excel (Intermediate/Advanced) ****Macros VBA****
+- Google Sheets ***Import Range, Query***
+- Process documentation ***Lucid chart***
+
 </details>
 
 - Netsuite
