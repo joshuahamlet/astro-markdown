@@ -3,6 +3,7 @@ layout: layouts/MarkDownLayout.astro
 title: Super Deep Thoughts 
 author: Himanshu
 description: Find out what makes Astro awesome!
+drafts: true
 ---
 is a hotdog a sandwich?
 

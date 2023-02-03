@@ -18,18 +18,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere enim nisl
 ## Work Experience
 
 <div class="workheader">
-<div class="position">
+<div class="position" >
 
 ### 3Q Digital
 AR Manager
 
 </div>
 <div class="wherewhen">
-<p>San Mateo, CA</p><p>Jun 2018 – Preset </p>
+<p>San Mateo, CA</p><p>Jun 2018 – May 2020 </p>
 </div>
 </div>
 
-- Managed ***all*** invoicing activities. Monthly volume average 200+ invoices at $4M Revenue and $3.6M Passthrough. THis included various streams and pricing structures.
+<details open>
+  <summary class="drawLine"></summary>
+
+- Managed all invoicing activities. Monthly volume average 200+ invoices at $4M Revenue and $3.6M Passthrough. THis included various streams and pricing structures.
 - Point of contact for revenue items during annual audit. 
 - Oversee 2 direct reports 
 - Generate monthly and ad hoc reporting. Moved towards a streamlined reporting structure by utilizing Data visualization and reporting tools. Revenue, Aging.
@@ -44,6 +47,8 @@ AR Manager
 - Coordinated with AP on joint tasks passthrough billing streamlining 
 - Streamlined invoicing
 
+</details>
+
 <div class="workheader">
 <div class="position">
 
@@ -56,6 +61,9 @@ Asian Art Museum of San Francisco
 </div>
 </div>
 
+<details open>
+  <summary class="drawLine"><span></span></summary>
+  
 - Manage all payment disbursements via check, ACH, and wire transfer. Monthly volume average 300+ invoices at $800 K
 - Provide support to Senior Accountant during month end close and annual external Audit
 - Manage expense report processing through Concur. Provide On-boarding and training for all new users.
@@ -66,6 +74,8 @@ Asian Art Museum of San Francisco
 - Provided analysis to support policy adjusting the number of required check signers from two to one on invoices under 5K. This freed managerial time to focus on high value payment approvals (top 10%)
 - Shifted AP function from paper-dependent to paperless policy.
 - Configured multi-tier approval routing mapping in Concur based on review of organizational chart.
+
+</details>
 
 <div class="workheader">
 <div class="position">
@@ -79,6 +89,9 @@ AP Specialist
 </div>
 </div>
 
+<details open>
+  <summary class="drawLine"><span></span></summary>
+  
 - Prepared all payment disbursements via check, ACH, and wire transfer. Monthly volume average 430+ invoices at $2.6 M (across 3 locations).
 - Provided support to Senior Accounta:nt during month end close and annual external audit.
 - Processed expense reports through Concur. On-boarded all new users. Go-to contact for all expense reporting issues and ERP integration issues.
@@ -89,6 +102,8 @@ AP Specialist
 - Managed transaction import, account coding, and payment for 22 corporate cards. Streamlined this process by implementing corporate-card feed to Concur expense reporting system.
 - Composed accounting and ad-hoc reports to the finance department. (A/P Aging, PTO Summaries, Customized Cash Reports)
 - On-boarded hourly employees into Insperity timecard application and. Point of contact for punch adjustments.
+
+</details>
 
 <div class="workheader">
 <div class="position">
@@ -102,6 +117,9 @@ Claims Analyst
 </div>
 </div>
 
+<details open>
+  <summary class="drawLine"><span></span></summary>
+  
 - Imported web claims and manually keyed physical claims into database daily.
 - Reviewed claimant documentation and assessed claim eligibility.     	
 - Maintained database integrity by reviewing duplicate claims and other anomalies.
@@ -110,14 +128,21 @@ Claims Analyst
 - Prepared weekly reports for Case Teams.
 - Fielded escalated inquiries and correspondence from claimants.
 
+</details>
+
 </div>
 
 <div class="resume-other">
 
+<div style="margin-bottom:2rem">
+
 ## SKILLS
 
+### Accounting
+
 <details>
-  <summary>Accounting</summary>
+  <summary class="drawLine"><span></span></summary>
+  <div  style="margin-bottom:4rem">
 
 - Netsuite
 - Sage Intacct
@@ -130,33 +155,25 @@ Claims Analyst
 - Google Sheets ***Import Range, Query***
 - Process documentation ***Lucid chart***
 
+</div>
 </details>
 
-- Netsuite
-- Sage Intacct
-- Google Data Studio
-- Abila MIP
-- Concur (Expense/Invoice/Reporting)
-- Bill.com
-- Insperity - Timestar
-- MS Office: Outlook, PowerPoint, Word, and Excel (Intermediate/Advanced) ****Macros VBA****
-- Google Sheets ***Import Range, Query***
-- Process documentation ***Lucid chart***
+</div>
 
 ## EDUCATION 
 
 <div class="workheader">
-<div class="position">
+  <div class="position">
 
 ### University of California, Santa Cruz
 BA in Business Management Economics - Emphasis in Accounting 
 
-</div>
-<div class="wherewhen">
+  </div>
+  <div class="wherewhen">
 
 <p>Santa Cruz, CA</p><p> Sep 2007 – Jun 2011</p>
 
-</div>
+  </div>
 </div>
 
 </div>
