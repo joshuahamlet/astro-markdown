@@ -10,6 +10,10 @@ layout: "../layouts/Resume.astro"
 <div style="max-width: 45em">
 <img style="border-radius:14rem;width:10rem;float:left;shape-outside:circle();margin-right:1rem" src="profile2.gif"/>
 <p style="margin-bottom:2rem;">
+ I develop full-stack web apps primarily with the React/NodeJS ecosystem. Among the
+meta-frameworks Astro and Next.js are my current favorites.
+MongoDB has been my database of choice but excited to leverage more PostgreSQL. 
+I think Typescript is pretty great.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere enim nisl, eu fermentum arcu egestas eget. Aliquam maximus ex non vulputate venenatis. Sed vel suscipit enim, quis facilisis enim. Suspendisse ultrices tristique ante non auctor. Etiam hendrerit ex eget dui dapibus vehicula. In vulputate tortor purus, a vestibulum enim dictum eget. Praesent eget tempus justo, id ultricies orci. Curabitur at cursus turpis, quis iaculis ligula. Donec mi justo, sollicitudin vitae facilisis placerat, venenatis at leo. Nunc finibus.
 </p>
 <div style="clear:left;"></div>
