@@ -110,6 +110,12 @@ ul {
   max-width: 45em;
 }
 
+.projectheader {
+  display: flex;
+  justify-content: space-between;
+  max-width: 45em;
+}
+
 .wherewhen {
   display: flex;
   flex-direction: column;
@@ -152,6 +158,12 @@ ul {
 @media (max-width: 35rem) {
   .workheader{
     flex-direction: column;
+  }
+}
+
+@media (max-width: 35rem) {
+  .linkslabel{
+    display: none;
   }
 }
 

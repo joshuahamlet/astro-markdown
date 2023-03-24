@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "surge": "surge /home/joshua/dev/js/astro-markdown/dist/ joshuahamlet.surge.sh",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",

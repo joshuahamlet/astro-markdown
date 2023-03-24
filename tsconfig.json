@@ -2,7 +2,7 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
       // ...
-
+      "skipLibCheck": true,
       /* Base URL is a MUST. */
       "baseUrl": "src",
       /* Your aliases will live here */
