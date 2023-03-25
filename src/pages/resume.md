@@ -14,7 +14,7 @@ layout: "../layouts/Resume.astro"
 meta-frameworks Astro and Next.js are my current favorites.
 MongoDB has been my database of choice but excited to leverage more PostgreSQL. 
 I think Typescript is pretty great. Linux is my daily driver. Vim, 
-command line tools, and tiling window managers are staples of my int my workflow.
+command line tools, and tiling window managers are staples of my workflow.
 </p>
 <div style="clear:left;"></div>
 </div>
@@ -240,17 +240,17 @@ AR Manager
 <details open>
   <summary class="drawLine"></summary>
 
+- Oversaw two direct reports, providing mentorship and feedback to ensure optimal performance. 
+- Managed and organized accounts receivable documentation using Notion, ensuring accurate records for training and reference.
+- Successfully trained and onboarded a new AR team post merger ensuring a seamless transiton and integration of processes.
+- Generate monthly and ad hoc reporting. Moved towards a streamlined reporting structure by utilizing Data visualization and reporting tools. Revenue, Aging.
 - Managed all invoicing activities. Monthly volume average 200+ invoices at $4M Revenue and $3.6M Passthrough. THis included various streams and pricing structures.
 - Point of contact for revenue items during annual audit. 
-- Oversee 2 direct reports 
-- Generate monthly and ad hoc reporting. Moved towards a streamlined reporting structure by utilizing Data visualization and reporting tools. Revenue, Aging.
 - Preparation of month end close package 
-- Monitor AR inbox 
 - Prepare monthly journals including accruals, deferred revenue, bad debt, reviewing entries for passthrough.
 - Onboarded new clients  
 - Assisted with AR items for due diligence during investment. Mid month close. Cash projections.
 - Maintained collections procedures. Reporting on aging 
-- Managed all invoicing activities. Monthly volume average 200+ invoices at $4M Revenue and $3.6M Passthrough 
 - Maintained schedules for deferred revenue and bad debt
 - Coordinated with AP on joint tasks passthrough billing streamlining 
 - Streamlined invoicing
@@ -300,14 +300,14 @@ AP Specialist
 <details open>
   <summary class="drawLine"><span></span></summary>
   
+- Assisted in the implementation of 3rd party AP processing application (Bill.com) and its integration with Netsuite ERP system
+- Managed transaction import, account coding, and payment for 22 corporate cards. Streamlined this process by implementing corporate-card feed to Concur expense reporting system.
 - Prepared all payment disbursements via check, ACH, and wire transfer. Monthly volume average 430+ invoices at $2.6 M (across 3 locations).
 - Provided support to Senior Accounta:nt during month end close and annual external audit.
 - Processed expense reports through Concur. On-boarded all new users. Go-to contact for all expense reporting issues and ERP integration issues.
 - Performed daily reconciliations on all bank accounts.
 - Coordinated vendor on-boarding and 1009 maintenance of 230+ vendors during phase of rapid growth.
 - Worked to establish N30 terms with most vendors despite limited credit history.
-- Assisted in the implementation of 3rd party AP processing application (Bill.com) and its integration with Netsuite ERP system
-- Managed transaction import, account coding, and payment for 22 corporate cards. Streamlined this process by implementing corporate-card feed to Concur expense reporting system.
 - Composed accounting and ad-hoc reports to the finance department. (A/P Aging, PTO Summaries, Customized Cash Reports)
 - On-boarded hourly employees into Insperity timecard application and. Point of contact for punch adjustments.
 
